@@ -1,0 +1,13 @@
+.game-container{
+  height: 300px;
+  width: 300px;
+  background-color: darkcyan;
+}
+.player{
+  position: absolute;
+  height: 70px;
+  width: 30px;
+  color: black;
+  background-color: black;
+}
+
