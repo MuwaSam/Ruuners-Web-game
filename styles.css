@@ -3,6 +3,7 @@
   height: 300px;
   width: 300px;
   background-color: darkcyan;
+  overflow: hidden;
   
 }
 .player{
@@ -18,10 +19,10 @@
 
 @keyframes move{
 0%{
-right: 0px;
+right: -10px;
 }
 100%{
-right: 280px;
+right: 300px;
 }
 }
 
