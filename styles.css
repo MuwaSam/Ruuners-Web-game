@@ -1,13 +1,35 @@
 .game-container{
+  position: relative;
   height: 300px;
   width: 300px;
   background-color: darkcyan;
+  
 }
 .player{
   position: absolute;
   height: 70px;
+  left: 60px;
   width: 30px;
   color: black;
+  bottom: 0;
   background-color: black;
+
 }
 
+@keyframes move{
+0%{
+right: 0px;
+}
+100%{
+right: 280px;
+}
+}
+
+.object{
+position: absolute;
+height: 30px;
+width: 30px;
+background-color: red;
+  animation: move 3s linear infinite; 
+  bottom: 0;
+}
