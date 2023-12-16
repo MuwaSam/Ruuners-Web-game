@@ -1,9 +1,9 @@
 var player = document.getElementById("player");
 
 
+function jump(){
+player.style.animation = "jumped 2s infinite";
 
-function jump(player){
-player.style
 }
 alert("hello");
 console.log("hlli");
