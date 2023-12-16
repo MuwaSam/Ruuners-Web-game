@@ -1,5 +1,9 @@
-var player = document.getElementsByClassName("player");
-player.style.bottom = "10px";
+var player = document.getElementById("player");
+
+
+
 function jump(player){
 player.style
 }
+alert("hello");
+console.log("hlli");

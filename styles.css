@@ -6,7 +6,7 @@
   overflow: hidden;
   
 }
-.player{
+#player{
   position: absolute;
   height: 70px;
   left: 60px;
@@ -14,6 +14,7 @@
   color: black;
   bottom: 0;
   background-color: black;
+  animation: jumped 2s infinite;
 
 }
 
@@ -33,4 +34,19 @@ width: 30px;
 background-color: red;
   animation: move 3s linear infinite; 
   bottom: 0;
+}
+
+@keyframes jumped {
+0%{
+bottom: 0;
+}
+25%{
+bottom: 50px;
+}
+50%{
+bottom: 50px;
+}
+100%{
+bottom: 0px;
+}
 }
